@@ -89,10 +89,6 @@ $(document).ready(() => {
       name: 'Hokindo',
       link: '76561198805849431',
     },
-	 {
-      name: 'Go_Hoosiers',
-      link: '76561198805849431',
-    },
   ];
 
   for (let i in links) {
