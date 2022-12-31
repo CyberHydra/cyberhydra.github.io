@@ -78,10 +78,6 @@ $(document).ready(() => {
       link: '76561198805849431',
     },
 	 {
-      name: 'lukflug',
-      link: '76561198805849431',
-    },
-	 {
       name: 'HautDaneben',
       link: '76561198805849431',
     },
