@@ -83,7 +83,7 @@ $(document).ready(() => {
     },
 	 {
       name: 'Praam',
-      link: '76561198805849431',
+      link: '76561198359823117',
     },
 	 {
       name: 'Hokindo',
