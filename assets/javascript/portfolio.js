@@ -29,7 +29,7 @@ GitHub: https://github.com/Lumm1t/obnoxious.club
 
 'use strict';
 
-const ipgeolocation = 'https://api.ipgeolocation.io/ipgeo?apiKey=1785ed53312f42c7b5ef89f65c3faa1a';
+const ipgeolocation = 'https://api.ipgeolocation.io/ipgeo?apiKey=6ea548f2992b4df49f3510f5dd9d92dc';
 
 const timeouts = [];
 
@@ -38,24 +38,64 @@ const mobileAndTabletCheck = () => /Android|webOS|iPhone|iPad|iPod|BlackBerry|IE
 $(document).ready(() => {
   const links = [
     {
-      name: 'Lummit',
-      link: '76561197960276740',
+      name: 'Cyber',
+      link: '76561198159376127',
     },
     {
-      name: 'Neso',
-      link: '76561198193201687',
+      name: 'Shae',
+      link: '76561197978110839',
     },
     {
-      name: 'loljuxd',
-      link: '76561198016198032',
+      name: 'JeremyDE',
+      link: '76561198235252816',
     },
     {
-      name: 'Lost',
-      link: '76561199079530557',
+      name: 'MiniHercules317',
+      link: '76561198165149984',
+    },
+	{
+      name: 'XXWW',
+      link: '76561198805849431',
     },
     {
-      name: 'mannin',
-      link: '76561197975672336',
+      name: 'Neko',
+      link: '76561198805849431',
+    },
+	 {
+      name: 'Danimania',
+      link: '76561198805849431',
+    },
+	 {
+      name: 'frost',
+      link: '76561198805849431',
+    },
+	 {
+      name: 'Muck144hz',
+      link: '76561198805849431',
+    },
+	 {
+      name: 'L2H',
+      link: '76561198805849431',
+    },
+	 {
+      name: 'lukflug',
+      link: '76561198805849431',
+    },
+	 {
+      name: 'HautDaneben',
+      link: '76561198805849431',
+    },
+	 {
+      name: 'Praam',
+      link: '76561198805849431',
+    },
+	 {
+      name: 'Hokindo',
+      link: '76561198805849431',
+    },
+	 {
+      name: 'Go_Hoosiers',
+      link: '76561198805849431',
     },
   ];
 
@@ -75,8 +115,8 @@ $(document).ready(() => {
     app.shouldIgnoreVideo = true;
   }
 
-  app.titleChanger(['Lummit', 'Neso', 'loljuxd', 'Vez', 'mannin', '=', 'obnoxious.club', 'Song name: KUSO GVKI - Cinnamon (feat. Apfel) (splash! Mag Premiere)']);
-  app.iconChanger(['assets/icons/roses/rose1.jpg', 'assets/icons/roses/rose2.jpg', 'assets/icons/roses/rose3.jpg', 'assets/icons/roses/rose4.jpg', 'assets/icons/roses/rose5.jpg', 'assets/icons/roses/rose6.jpg', 'assets/icons/roses/rose7.jpg', 'assets/icons/roses/rose8.jpg', 'assets/icons/roses/rose1.jpg']);
+  app.titleChanger(['Cyber', 'Shae', 'JeremyDE', 'MiniHercules317', 'Neko', 'cyberhack.cc']);
+  app.iconChanger(['assets/icons/roses/swastika.png']);
 });
 
 if ($.cookie('videoTime')) {
@@ -110,7 +150,7 @@ $('html').on('contextmenu', (event) => {
   img.src = 'assets/others/trollface.jpg';
   img.width = 64;
   img.height = 64;
-  img.alt = 'obnoxious.club';
+  img.alt = 'cyberhack.cc';
   img.style = `position: absolute; left: ${event.pageX}px; top: ${event.pageY}px; z-index: 10`;
   img.className = `troll ${trollfaceLight}`;
 
@@ -167,7 +207,7 @@ $.getJSON(ipgeolocation, (data) => {
 
       clearCursor();
 
-      writeLine([`<i style='color: #F62459'>obnoxious.club $$$</i>`], 120, 500, () => {
+      writeLine([`<i style='color: #F62459'>cyberhack.cc $$$</i>`], 120, 500, () => {
         timeouts.push(
           setTimeout(() => {
             if (app.skippedIntro) return;
