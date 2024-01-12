@@ -29,7 +29,7 @@ GitHub: https://github.com/Lumm1t/obnoxious.club
 
 'use strict';
 
-const ipgeolocation = 'https://api.ipgeolocation.io/ipgeo?apiKey=6ea548f2992b4df49f3510f5dd9d92dc';
+const ipgeolocation = 'https://api.ipgeolocation.io/ipgeo?apiKey=de87c829ac024496b6365330d1bb1c3c';
 
 const timeouts = [];
 
