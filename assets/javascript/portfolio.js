@@ -105,13 +105,7 @@ $(document).ready(() => {
     if (i != links.length - 1) $('#marquee').append(' <img class="emoticon" src="assets/others/mgh_17.png"> ');
   }
 
-  if (mobileAndTabletCheck()) {
-    $('#background').replaceWith('<div id="background" style="background-image: url(assets/images/mobile-background.jpg);"></div>');
-
-    app.shouldIgnoreVideo = true;
-  }
-
-  app.titleChanger(['Cyber', 'Shae', 'JeremyDE', 'MiniHercules317', 'Neko', 'cyberhack.cc']);
+  app.titleChanger(['cyberhack.cc', 'owns','me','and','all']);
   app.iconChanger(['assets/icons/roses/swastika.png']);
 });
 
