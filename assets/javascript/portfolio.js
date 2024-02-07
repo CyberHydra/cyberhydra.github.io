@@ -212,7 +212,7 @@ $.getJSON(ipgeolocation, (data) => {
       });
     });
   });
-});
+}); 
 
 const skipIntro = () => {
   if (app.skippedIntro) return;
