@@ -93,6 +93,10 @@ $(document).ready(() => {
 		  name: 'Kabmi',
 		  link: '76561198805849431'
 	  },
+	   {
+		  name: 'MissingPlugins',
+		  link: '76561198805849431'
+	  },
   ];
 
   for (let i in links) {
